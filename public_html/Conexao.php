@@ -20,12 +20,10 @@ class Conexao {
             self::$conexao->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
             self::$conexao->exec('set names utf8mb4');
             echo 'Show de bola, pode ir dormir';
-        } else {
-            echo 'Que merda ein';
-        }
+        }         
+        echo 'Show de bola, pode ir dormir';
+        return self::$conexao;
         
-        #return self::$conexao;
-        return "Show de bola, pode ir dormir";
     }
 }
 
