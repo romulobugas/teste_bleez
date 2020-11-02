@@ -21,8 +21,7 @@ class Conexao {
             self::$conexao->exec('set names utf8mb4');
             echo 'Show de bola, pode ir dormir';
         }         
-        echo 'Show de bola, pode ir dormir';
-        return self::$conexao;
+        echo 'Tendi não';
         
     }
 }
