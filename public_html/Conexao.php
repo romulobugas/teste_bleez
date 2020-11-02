@@ -24,7 +24,8 @@ class Conexao {
             echo 'Que merda ein';
         }
         
-        return self::$conexao;
+        #return self::$conexao;
+        return 'Show de bola, pode ir dormir';
     }
 }
 
