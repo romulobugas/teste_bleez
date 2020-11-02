@@ -20,8 +20,10 @@ class Conexao {
             self::$conexao->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
             self::$conexao->exec('set names utf8mb4');
             echo "<script>window.alert(\"Deu certo VÁ DORMIR!!!\");</script>";
+        }else {
+            echo "<script>window.alert(\"Tendi não!!!\");</script>";
         }         
-        echo "<script>window.alert(\"Tendi não!!!\");</script>";
+        
         
     }
 }
