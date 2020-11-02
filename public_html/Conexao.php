@@ -24,7 +24,7 @@ class Conexao {
         }else {
             echo "Tendi não!!!";
         }         
-        echo "<script>window.location= 'index.php';</script>";
+        return 'Teste12';
         
     }
 }
