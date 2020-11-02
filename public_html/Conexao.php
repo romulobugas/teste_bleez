@@ -25,7 +25,7 @@ class Conexao {
         }
         
         #return self::$conexao;
-        return 'Show de bola, pode ir dormir';
+        return "Show de bola, pode ir dormir";
     }
 }
 
