@@ -1,4 +1,3 @@
-Teste
 <?php
 
 class Conexao {
@@ -28,4 +27,3 @@ class Conexao {
 }
 
 ?>
-Teste2
