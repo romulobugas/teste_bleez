@@ -19,9 +19,9 @@ class Conexao {
                                        '6&@7ZtPlqXLa@mFe');
             self::$conexao->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
             self::$conexao->exec('set names utf8mb4');
-            echo 'Show de bola, pode ir dormir';
+            echo "<script>window.alert(\"Deu certo VÁ DORMIR!!!\");</script>";
         }         
-        echo 'Tendi não';
+        echo "<script>window.alert(\"Tendi não!!!\");</script>";
         
     }
 }
